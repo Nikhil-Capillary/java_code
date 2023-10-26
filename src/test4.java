@@ -6,4 +6,5 @@ class Test4{
     }
 }
     public static void main(String[] args) {
-        stringEqualityCheckNoncompliant("bisd","bisd");}}
+        stringEqualityCheckNoncompliant("bisd","bisd");
+        System.out.println("The strings are equal."); }}
