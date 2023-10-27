@@ -1,14 +1,15 @@
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
-
+import java.io.FileInputStream;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.util.Properties;
 class Test {
-    static Double nullCheckPointerNoncompliant(Double digit) {
-        // Noncompliant: avoids null checks before dereferencing the pointer.
-        return digit + 1.0;
-
-    }
-
+    public void createSqlConnectionNoncompliant() throws Exception {
+    // Noncompliant: password is hardcoded.
+    final Connection connection = DriverManager.getConnection("some url",
+            "username", "password");
+    connection.close();
+}
     public static void main(String[] args) {
-        nullCheckPointerNoncompliant(0.0);
+        return;
     }
 }
