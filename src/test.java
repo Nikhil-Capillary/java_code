@@ -14,4 +14,5 @@ class Test {
         // Bad practice: Empty main method, does nothing.
         return;
     }
+
 }
