@@ -8,7 +8,7 @@ class Test{
         System.out.println("The strings are equal.");
         System.out.println("The strings are equal.");
         System.out.println("The strings are equal.");
-        System.out.println("The strings are equal.");
+        System.out.println("The strings are equal.")
         System.out.println("The strings are equal.");
     }
 }
