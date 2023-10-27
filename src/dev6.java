@@ -1,3 +1,4 @@
+import org.jetbrains.annotations.Nullable;
 class Dev6{
     private Double nullCheckPointerNoncompliant(@Nullable Double digit) {
     // Noncompliant: avoids null checks before dereferencing the pointer.
@@ -7,4 +8,3 @@ class Dev6{
         System.out.println("The strings are equal.");
     }
 }
-
