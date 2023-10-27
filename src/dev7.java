@@ -1,4 +1,4 @@
-class Test{
+class Dev7{
     static void stringEqualityCheckNoncompliant(String string1, String string2) {
         System.out.println("The strings are equal.");
         System.out.println("The strings are equal.")
